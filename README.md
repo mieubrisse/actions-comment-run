@@ -37,7 +37,7 @@ jobs:
       with:
         # 0 indicates all history
         fetch-depth: 0
-    - uses: nwtgck/actions-comment-run@v1.1
+    - uses: mieubrisse/actions-comment-run@allowed-users-for-orgs
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
         allowed-associations: '["OWNER"]'
